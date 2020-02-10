@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 80vh;  
+}
+#yes{
+    height: 80vh;
+    background: linear-gradient(50deg, rgba(52,255,0,0) 0%, rgba(254,255,0,.8) ),
+    url(https://cdn.pixabay.com/photo/2020/02/03/10/02/corvette-4815234_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#yes nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+
+}
+
+#yes nav ul{
+    display: flex;
+
+}
+#yes nav p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+}
+#yes nav ul li{
+    padding: 0 20px;
+    list-style: none;
+    font-size: 18px;
+}
+
+header p.dd{
+    position: relative;
+    bottom: 50vh;
+    font-size: 90px;
+    color: #000000;
+    text-align: center;
+ 
+}
+
+.sec{
+    height: 100vh;
+    background-color: cadetblue;
+}
+.square{
+width: 350px;
+height: 350px;
+}
+#red{
+    position: relative;
+    background-color: red;
+}
+#blue{
+    margin-top: 30px;
+    background-color: blue;
+}
+#hover{
+    height: 200vh;
+}
